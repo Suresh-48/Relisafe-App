@@ -1,0 +1,98 @@
+
+.container-forgot{
+  margin: 8% auto 37px;
+  max-width: 530px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.15);
+@media (min-width: 320px) and (max-width:570px){
+margin-top: 30%;
+}
+@media (min-width:768px) and (max-width:1024px){
+  margin-top: 10%;
+}
+}
+*{
+  box-sizing: border-box;
+}
+.login-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.loginFields{
+  width: 70%;
+  border-style: groove;
+}
+.button_1{
+background-color: #1D5460;
+border: none;
+border-radius: 5px;
+width: 60%;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+height: 34px;
+margin-left: 10%;
+}
+.buttonDiv{
+ display: flex;
+ justify-content: center;
+}
+.log-in-btn{
+  display: flex;
+  justify-content: center;
+  background-color: #1D5460;
+  border: none;
+  width: 50%;
+  margin: auto;
+}
+.log-in-btn:hover{
+  background-color: #1D5460;
+}
+
+.head{
+  margin-left: 38%;
+  background-color: #1D5460;
+ color: #fff;
+ height: 49px;
+ font-family: sans-serif;
+  
+}
+.userPass{
+  text-decoration: none;
+}
+.userPass:hover{
+  text-decoration: dashed;
+}
+// .card{
+//   background-color: #f2f1f2;
+// }
+.loginPageStyle{
+width: 30%;
+margin: 130px auto;
+border-radius: 5px;
+
+}
+.heading-div{
+  background-color: oklch(45.12% 0.267 var(--user-theme-color-hue));
+  height: 50px;
+  border-radius: 5px 5px 0px 0px;
+  align-items: center;
+}
+.text-white{
+  text-align: center;
+  align-items: center;
+}
+.login-fields-email{
+  margin: 50px 60px 0px 60px ;
+}
+.login-fields-password{
+  margin: 30px 60px 0px 60px ;
+}
+.shadow{
+  border-radius: 5px;
+  width: 80%;
+  margin-left: 6%;
+  margin-top: 3%;
+}
